@@ -1,0 +1,23 @@
+.job-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.select-location{
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
