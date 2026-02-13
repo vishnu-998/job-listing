@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import jobData from '../../data';
 import JobCard from '../JobCard/JobCard';
-import './jobs.css'
+import './Jobs.css'
 
 const Jobs = () => {
   const [selectedLocation, setSelectedLocation] = useState("All")
